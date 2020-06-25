@@ -23,7 +23,15 @@
     <RepositoryUrl>https://github.com/carable/carable.assemblypayments</RepositoryUrl>
     <PackageReleaseNotes>Should have default value for user verification status.</PackageReleaseNotes>
 
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
 
   <ItemGroup>
